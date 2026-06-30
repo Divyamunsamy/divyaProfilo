@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divya M — Python Full Stack Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- External Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════ -->
+<nav>
+  <div class="nav-inner">
+    <div class="nav-logo">&lt;divyamunusamy /&gt;</div>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- ══════════════════════════════════════════
+     HERO / ABOUT
+══════════════════════════════════════════ -->
+<section id="about">
+  <div class="container">
+    <div class="hero-layout">
+
+      <!-- Left: Text -->
+      <div class="hero-text">
+        <p class="hero-eyebrow">Hello, World!<span class="cursor">_</span></p>
+        <h1 class="hero-name"><span class="grad-text">Divya M</span></h1>
+
+        <!-- Typewriter role line -->
+        <p class="hero-role"><span id="typewriter">Python Full Stack Developer</span><span class="cursor">|</span></p>
+
+        <p class="hero-summary">
+          Passionate developer with hands-on experience in Python, Django, REST APIs, and PostgreSQL.
+          I build secure, scalable web applications — from biometric banking portals to AI-powered
+          computer vision modules. Currently based in Hosur, India, open to full-stack or backend roles.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+            View Projects
+          </a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+
+        <!-- Contact chips -->
+        <div class="hero-contacts">
+          <a href="tel:+919025362823" class="contact-chip">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/>
+            </svg>
+            +91-9025362823
+          </a>
+          <a href="mailto:divyamunusamy04@gmail.com" class="contact-chip">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            divyamunusamy04@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/divya-munusamy-61639635a" target="_blank" class="contact-chip">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+            LinkedIn
+          </a>
+          <a href="https://github.com/Divyamunsamy" target="_blank" class="contact-chip">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+            </svg>
+            GitHub
+          </a>
+          <span class="contact-chip">📍 Hosur, India</span>
+        </div>
+
+        <!-- Tech pills -->
+        <div class="tech-float">
+          <span class="pill pill-sky">Python</span>
+          <span class="pill pill-pur">Django</span>
+          <span class="pill pill-sky">REST APIs</span>
+          <span class="pill pill-grad">PostgreSQL</span>
+          <span class="pill pill-pur">OpenCV</span>
+          <span class="pill pill-sky">Flask</span>
+          <span class="pill pill-grad">JavaScript</span>
+          <span class="pill pill-pur">Git</span>
+          <span class="pill pill-sky">HTML5</span>
+          <span class="pill pill-grad">CSS3</span>
+        </div>
+      </div><!-- /hero-text -->
+
+      <!-- Right: Profile Photo -->
+      <div class="hero-image-wrap">
+        <div class="profile-img-ring">
+
+          <!-- Clicking the ring triggers file input -->
+          <label class="profile-upload-label" for="photo-input">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+              <polyline points="17 8 12 3 7 8"/>
+              <line x1="12" y1="3" x2="12" y2="15"/>
+            </svg>
+            Upload your photo
+          </label>
+          <input type="file" id="photo-input" accept="image/*" />
+
+          <div class="profile-img-inner">
+            <!-- Real photo (hidden until uploaded) -->
+            <img id="profile-img"
+                 src=""
+                 alt="Divya M"
+                 style="display:none" />
+
+            <!-- Placeholder avatar (shown by default) -->
+            <div id="avatar-placeholder" class="avatar-placeholder">
+              <svg width="72" height="72" viewBox="0 0 24 24" fill="none" stroke="var(--sky)" stroke-width="1.2">
+                <circle cx="12" cy="8" r="4"/>
+                <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+              </svg>
+              <span>Hover &amp; click<br>to add your photo</span>
+            </div>
+          </div>
+
+        </div><!-- /profile-img-ring -->
+      </div><!-- /hero-image-wrap -->
+
+    </div><!-- /hero-layout -->
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ══════════════════════════════════════════
+     SKILLS
+══════════════════════════════════════════ -->
+<section id="skills">
+  <div class="container">
+    <p class="section-label fade-up"></p>
+    <h2 class="section-title fade-up">Core <span class="grad-text">Skills</span></h2>
+    <div class="skills-grid">
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon" style="background:rgba(56,189,248,0.12)">🐍</div>
+        <div>
+          <div class="skill-name">Python Development</div>
+          <div class="skill-sub">Core Python · OOPs · Exception Handling</div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon" style="background:rgba(168,85,247,0.12)">⚙️</div>
+        <div>
+          <div class="skill-name">Django &amp; REST APIs</div>
+          <div class="skill-sub">Django MVT · DRF · Postman</div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon" style="background:rgba(56,189,248,0.12)">🗄️</div>
+        <div>
+          <div class="skill-name">Database Management</div>
+          <div class="skill-sub">PostgreSQL · SQL · ORM</div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon" style="background:rgba(168,85,247,0.12)">🌐</div>
+        <div>
+          <div class="skill-name">Full Stack Web Dev</div>
+          <div class="skill-sub">HTML5 · CSS3 · JavaScript</div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon" style="background:rgba(56,189,248,0.12)">👁️</div>
+        <div>
+          <div class="skill-name">Computer Vision</div>
+          <div class="skill-sub">OpenCV · DeepFace · ViT</div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon" style="background:rgba(168,85,247,0.12)">🔧</div>
+        <div>
+          <div class="skill-name">Version Control</div>
+          <div class="skill-sub">Git · GitHub · Agile</div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon" style="background:rgba(56,189,248,0.12)">📱</div>
+        <div>
+          <div class="skill-name">Responsive Design</div>
+          <div class="skill-sub">Mobile-first · Cross-browser</div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <div class="skill-icon" style="background:rgba(168,85,247,0.12)">🔐</div>
+        <div>
+          <div class="skill-name">Auth &amp; Security</div>
+          <div class="skill-sub">JWT · MFA · Biometrics</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ══════════════════════════════════════════
+     PROJECTS
+══════════════════════════════════════════ -->
+<section id="projects">
+  <div class="container">
+    <p class="section-label fade-up"></p>
+    <h2 class="section-title fade-up">Featured <span class="grad-text">Projects</span></h2>
+    <div class="projects-grid">
+
+      <div class="card project-card fade-up">
+        <div class="project-tag">⭐ Flagship Project</div>
+        <h3>Fraud Detection — Internet Banking Portal</h3>
+        <p>Secure banking portal with biometric authentication using face recognition and liveness detection. Built a blockchain-based transaction ledger with multi-factor authentication to prevent fraud.</p>
+        <div class="project-techs">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Flask</span>
+          <span class="tech-tag">Django</span>
+          <span class="tech-tag">OpenCV</span>
+          <span class="tech-tag">DeepFace</span>
+          <span class="tech-tag">ViT</span>
+          <span class="tech-tag">Blockchain</span>
+        </div>
+      </div>
+
+      <div class="card project-card fade-up">
+        <div class="project-tag">Desktop App</div>
+        <h3>Student Login System with Excel Storage</h3>
+        <p>Desktop GUI application for student login, data entry, and record management. Features Excel-based persistent storage using openpyxl with an intuitive Tkinter interface.</p>
+        <div class="project-techs">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Tkinter</span>
+          <span class="tech-tag">openpyxl</span>
+          <span class="tech-tag">Excel</span>
+        </div>
+      </div>
+
+      <div class="card project-card fade-up">
+        <div class="project-tag">🌐 Live Site</div>
+        <h3>Personal Portfolio Website</h3>
+        <p>Fully responsive personal portfolio website showcasing technical projects, skills, and contact information. Deployed live on Netlify using modern HTML5, CSS3, and JavaScript.</p>
+        <div class="project-techs">
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Netlify</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ══════════════════════════════════════════
+     EXPERIENCE
+══════════════════════════════════════════ -->
+<section id="experience">
+  <div class="container">
+    <p class="section-label fade-up"></p>
+    <h2 class="section-title fade-up">Work <span class="grad-text">Experience</span></h2>
+    <div class="timeline">
+
+      <!-- Besant Technologies -->
+      <div class="timeline-item fade-up">
+        <div class="timeline-left">
+          <div class="timeline-date">Dec 2025<br>— Jun 2026</div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-vline"></div>
+        </div>
+        <div class="timeline-content card">
+          <div class="exp-company">Besant Technologies · Bengaluru</div>
+          <div class="exp-role">Python Full Stack Development Intern</div>
+          <ul class="exp-desc">
+            <li>Built full-stack web apps using Python, Django, DRF, PostgreSQL, HTML, CSS, and JavaScript.</li>
+            <li>Developed REST APIs and responsive UIs with authentication and CRUD operations.</li>
+            <li>Optimized databases and tested APIs with Postman; practiced Agile + Git workflows.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Vlog Innovations -->
+      <div class="timeline-item fade-up">
+        <div class="timeline-left">
+          <div class="timeline-date">Jun 2025<br>— Jul 2025</div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-content card">
+          <div class="exp-company">Vlog Innovations · Bengaluru</div>
+          <div class="exp-role">AI with Python Intern</div>
+          <ul class="exp-desc">
+            <li>Developed computer vision modules: real-time face detection with OpenCV.</li>
+            <li>Built QR code generation and voice recognition systems using Python.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ══════════════════════════════════════════
+     CERTIFICATIONS + ACHIEVEMENTS
+══════════════════════════════════════════ -->
+<section id="certs">
+  <div class="container">
+    <div class="two-col">
+
+      <!-- Certifications -->
+      <div>
+        <p class="section-label fade-up"></p>
+        <h2 class="section-title fade-up" style="margin-bottom:28px">Certifications</h2>
+        <div class="certs-col">
+          <div class="cert-card fade-up">
+            <div class="cert-icon">🏅</div>
+            <div>
+              <div style="font-weight:600;font-size:0.95rem">Python Full Stack Developer</div>
+              <div style="color:var(--muted);font-size:0.8rem">Certification</div>
+            </div>
+          </div>
+          <div class="cert-card fade-up">
+            <div class="cert-icon">🏅</div>
+            <div>
+              <div style="font-weight:600;font-size:0.95rem">Web Development</div>
+              <div style="color:var(--muted);font-size:0.8rem">Certification</div>
+            </div>
+          </div>
+          <div class="cert-card fade-up">
+            <div class="cert-icon">🏅</div>
+            <div>
+              <div style="font-weight:600;font-size:0.95rem">Python Programming</div>
+              <div style="color:var(--muted);font-size:0.8rem">Certification</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievements -->
+      <div>
+        <p class="section-label fade-up"></p>
+        <h2 class="section-title fade-up" style="margin-bottom:28px">Achievements</h2>
+        <div class="achievement-card fade-up">
+          <div class="ach-badge">🥈</div>
+          <div>
+            <div style="font-weight:700;font-size:1.1rem;margin-bottom:6px">Second Prize</div>
+            <div style="color:var(--sky);font-size:0.9rem;margin-bottom:6px">National Level Technical Symposium</div>
+            <div style="color:var(--muted);font-size:0.85rem">Paper Presentation — recognized for technical excellence at a national competition.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ══════════════════════════════════════════
+     EDUCATION
+══════════════════════════════════════════ -->
+<section id="education">
+  <div class="container">
+    <p class="section-label fade-up"></p>
+    <h2 class="section-title fade-up">Academic <span class="grad-text">Background</span></h2>
+    <div class="card fade-up">
+      <div class="edu-card">
+        <div class="edu-year">2022 — 2026</div>
+        <div>
+          <div class="edu-degree">B.Tech – Information Technology</div>
+          <div class="edu-school">Er. Perumal Manimekalai College of Engineering, Hosur</div>
+          <span class="edu-cgpa">⭐ CGPA: 8.03</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+
+<!-- ══════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container">
+    <p class="section-label fade-up"></p>
+    <h2 class="section-title fade-up">Get In <span class="grad-text">Touch</span></h2>
+    <p class="fade-up" style="color:var(--muted);max-width:500px;margin:0 auto;line-height:1.7">
+      I'm actively looking for Python Developer or Full Stack Developer opportunities.
+      Feel free to reach out — let's build something great together!
+    </p>
+    <div class="contact-grid">
+      <a href="mailto:divyamunusamy04@gmail.com" class="contact-card fade-up">
+        <div class="icon">✉️</div>
+        <div><div class="label">Email</div><div class="value">divyamunusamy04@gmail.com</div></div>
+      </a>
+      <a href="tel:+919025362823" class="contact-card fade-up">
+        <div class="icon">📱</div>
+        <div><div class="label">Phone</div><div class="value">+91-9025362823</div></div>
+      </a>
+      <a href="https://www.linkedin.com/in/divya-munusamy-61639635a" target="_blank" class="contact-card fade-up">
+        <div class="icon">💼</div>
+        <div><div class="label">LinkedIn</div><div class="value">divya-munusamy</div></div>
+      </a>
+      <a href="https://github.com/Divyamunsamy" target="_blank" class="contact-card fade-up">
+        <div class="icon">🐙</div>
+        <div><div class="label">GitHub</div><div class="value">Divyamunsamy</div></div>
+      </a>
+      <span class="contact-card fade-up" style="cursor:default">
+        <div class="icon">📍</div>
+        <div><div class="label">Location</div><div class="value">Hosur, Tamil Nadu, India</div></div>
+      </span>
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer>
+  <div class="container">
+    <span class="footer-name">Divya M</span>
+    &nbsp;·&nbsp; Python Full Stack Developer
+    &nbsp;·&nbsp; Hosur, India
+    &nbsp;·&nbsp; 2026
+  </div>
+</footer>
+
+<!-- External JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
